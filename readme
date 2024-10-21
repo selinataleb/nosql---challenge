@@ -1,0 +1,25 @@
+Module 12 Challenge 
+
+Part 1: Database and Jupyter Notebook Set Up
+
+Using SQL_setup_starter folder 
+
+We began by importing the dataset and importing dependencies 
+We then created an instance of MongoClient and confirmed that our new database was created. 
+We confirmed that uk_food was listed and we assigned it to a new variable name db
+We then reviewed the collections in our new database and assigned that to a variable called establishments. 
+
+Part 2: Update the Database 
+
+We added Penang Flavours to our list of restaurants, and we inserted it into the collection. 
+We made sure that the new restaurant was added 
+We also deleted any establishment within the Dover Local Authority because the magazine is not interested in those establihsments. 
+
+Part 3: Exploratory Analysis 
+
+These questions have been answered in the Jupyter Notebook called NoSQL_analysis_starter 
+
+Question 1: Which establishments have a hygiene score equal to 20?
+Question 2: Which establishments in London have a RatingValue greater than or equal to 4?
+Question 3: What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"? 
+Question 4: How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.
